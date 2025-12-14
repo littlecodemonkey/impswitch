@@ -208,6 +208,10 @@ footer {
         flex-direction: column;
         text-align: center;
     }
+    .hero-image {
+        max-width: 100%;
+        width: 100%;
+    }
     nav {
         flex-direction: column;
         gap: 10px;
