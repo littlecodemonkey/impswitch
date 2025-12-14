@@ -242,6 +242,8 @@ footer {
     border-radius: 15px;
     width: 80%;
     max-width: 800px;
+    max-height: 90vh;
+    overflow-y: auto;
     position: relative;
     box-shadow: 0 4px 20px rgba(0,0,0,0.3);
 }
@@ -267,9 +269,11 @@ footer {
 
 #modal-main-image {
     max-width: 100%;
+    max-height: 60vh;
     height: auto;
     border-radius: 10px;
     margin-bottom: 20px;
+    object-fit: contain;
 }
 
 .thumbnail-gallery {
